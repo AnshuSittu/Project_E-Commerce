@@ -1,7 +1,7 @@
-import p1_img from '../assets/p1.jfif'
-import p2_img from '../assets/p2.jfif'
-import p3_img from '../assets/p3.avif'
-import p4_img from '../assets/p4.jfif'
+import p1_img from '../assets/p1.png'
+import p2_img from '../assets/p2.png'
+import p3_img from '../assets/p3.png'
+import p4_img from '../assets/p4.png'
 
 let data_product= [
      {
