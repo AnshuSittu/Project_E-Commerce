@@ -5,6 +5,7 @@
     align-items: center;
     gap: 50px;
     background:linear-gradient(180deg,#e1ffea22, #FEF3E2 40%);
+    margin-top: 150px;
 }
 .footer-logo{
     display: flex;

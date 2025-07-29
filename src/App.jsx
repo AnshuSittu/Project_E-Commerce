@@ -6,7 +6,7 @@ import ShopCategory  from "./pages/ShopCategory";
 import Products from "./pages/Products";
 import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
-import loginSignUp from "./pages/loginSignUp";
+import LoginSignup from "./Pages/LoginSignup"
 import Footer from "./Components/Footer/Footer";
 import men_banner from "./assets/banner.jpg";
 import women_banner from "./assets/women_banner.avif";
@@ -23,9 +23,9 @@ function App() {
           <Route path="/womens" element={<ShopCategory category="women" banner={women_banner}/>} />
           <Route path="/kids" element={<ShopCategory category="kid" banner={kids_banner}/>} />
           <Route path="/product" element={<Products />} />
-          <Route path=":/productId" element={<Products />} />
+          <Route path="/product/:productId" element={<Products />} />
           <Route path="/cart" element={<Cart/>} />
-          <Route path="/login" element={<loginSignUp/>} />
+             <Route path="/login" element={<LoginSignup/>}/>
         </Routes>
           <Footer/>
       </BrowserRouter>
